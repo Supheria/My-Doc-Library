@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>第十二周讨论课资料搜集</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>第十二周讨论课资料搜集</h1>
+<p>专业班级：软件1802</p>
+<h2>二叉链表表示法</h2>
+<h3>物理数据结构概述</h3>
+<p>二叉链表是树的二叉链表实现方式，以二叉链表作为树的存储结构。链表中每个结点的都有一个数据和两个链域分别指向该结点的两个子节点。</p>
+<h3>物理数据结构定义</h3>
+<p>基类定义： </p>
+<pre><code>template&lt;typename E&gt;
+class BinNode {
+    public: 
+        virtual ~BinNode() {}
+
+        // Return the Node's Value
+        virtual E &amp;element() = 0;
+
+        // Set the Node's Value
+        virtual void setElement(const E &amp;) = 0;
+
+        // Return the Node's Left child
+        virtual BinNode *left() const = 0;
+
+        // Set the Node's Left child
+        virtual void setLeft(BinNode *) = 0;
+
+        // Return the Node's Right child
+        virtual BinNode *right() const = 0;
+
+        // Set the Node's Right child
+        virtual void setRight(BinNode *) = 0;
+
+        // Return true if the node is a leaf
+        virtual bool isLeaf() = 0;
+};
+</code></pre>
+
+<p>数据定义：</p>
+<pre><code>template&lt;typename Key, typename E&gt;
+class BSTNode : public BinNode&lt;E&gt; {
+private:
+    Key k;
+    E it;
+    BSTNode *lc;
+    BSTNode *rc;
+
+    void removeAll(BSTNode *root) {
+        if (!isLeaf()) {
+            removeAll(lc);
+            lc = NULL;
+            removeAll(rc);
+            rc = NULL;
+        }
+        delete this;
+    }
+
+public:
+    BSTNode() {}
+
+    BSTNode(Key K, E e, BSTNode *l = NULL, BSTNode *r = NULL) {}
+
+    ~BSTNode() {};
+
+    E &amp;element() {}
+
+    void setElement(const E &amp;e) {}
+
+    Key &amp;key() {}
+
+    void setKey(const Key &amp;K) {}
+
+    inline BSTNode *left() const {}
+
+    void setLeft(BinNode&lt;E&gt; *b) {}
+
+    inline BSTNode *right() const {}
+
+    void setRight(BinNode&lt;E&gt; *b) {}
+
+    bool isLeaf() {}
+};
+</code></pre>
+
+<h3>如何存储</h3>
+<p>以二叉链表作为树的存储结构。链表中每个结点的都是一个结构体，其中有一个是存储节点本身的值，另外还有两个指针分别指向该节点的左子节点和右子节点。</p>
+<h3>如何构建</h3>
+<h4>举例</h4>
+<p>A结点是根结点，有左右孩子。即A结点的element是A，<em>left指向B结点，</em>right指向C结点；B结点有右孩子，没有左孩子。即B结点的element是B，<em>left指向NULL，<em>right指向D结点；C结点没有左孩子也没有右孩子，即C的element是C，</em>left指向NULL，</em>right指向NULL；D结点也是一个叶结点，element为D，<em>left指向NULL，</em>right指向NULL。</p>
+<h4>算法描述</h4>
+<pre><code>st=&gt;start: 开始
+io1=&gt;inputoutput: 键盘输入二叉树的二叉链的数据
+con1=&gt;condition: (item!=RefValue )
+op1=&gt;operation: 封闭叶子结点
+op2=&gt;operation: 创建二叉链表结点
+op3=&gt;operation: 递归生成左右子树
+op4=&gt;operation: 创建成功返回二叉树的头指针
+e=&gt;end: 结束
+
+st-&gt;io1-&gt;con1
+con1(yes)-&gt;op1
+con1(no)-&gt;op2
+op2-&gt;op3(right)-&gt;io1
+op1-&gt;op4-&gt;e
+</code></pre>
+
+<h2>左子结点/右兄弟结点表示法</h2>
+<h3>物理数据结构概述</h3>
+<p>通过数组来存储结点。每个结点是一个一维数组，有四个成员。假设整棵树有n个结点，那此树以左子结点/右兄弟结点表示法表示，就是一个n*4的二维数组。</p>
+<h3>物理数据结构定义</h3>
+<p>每个结点都存储结点的值，以及指向左子结点、父节点和右兄弟结点的指针。</p>
+<h3>如何存储</h3>
+<p>申请一个n（+）*4大小的数组（A[n][4]）。</p>
+<p>存数据对象：将每个结点的值随机存入A[i][1]中，i是结点下标，也是结点的位置。</p>
+<p>存数据关系：将每个结点的左子结点的位置存入A[i][0]中，父结点位置存入A[i][2]中，右兄弟结点位置存入A[i][3]中。</p>
+<h3>如何构建</h3>
+<h4>举例</h4>
+<pre><code>| Left | Val  | Par  | Right |
+| :--: | :--: | :--: | :---: |
+|  1   |  A   |      |       |
+|      |  B   |  0   |   2   |
+|      |  C   |  0   |       |
+|      |  D   |  1   |       |
+</code></pre>
+
+<h4>算法描述</h4>
+<ol>
+<li>
+<p>首先按前序遍历输入二叉树。</p>
+</li>
+<li>
+<p>判断是否是封闭结点的标识，如果不是则创建二维数组，将结点元素依次放入数组。</p>
+</li>
+<li>
+<p>位置相邻的分别存为左子结点和父结点。</p>
+</li>
+<li>
+<p>从输入流中查找右兄弟结点，存入数组。</p>
+</li>
+</ol>
+<h2>邻接表表示法</h2>
+<h3>物理数据结构概述</h3>
+<p>邻接表，存储方法跟树的孩子链表示法相类似，是一种顺序分配和链式分配相结合的存储结构。如这个表头结点所对应的顶点存在相邻顶点，则把相邻顶点依次存放于表头结点所指向的单向链表中。
+对于无向图来说，使用邻接表进行存储也会出现数据冗余，表头结点A所指链表中存在一个指向C的表结点的同时，表头结点C所指链表也会存在一个指向A的表结点。</p>
+<h3>物理数据结构定义</h3>
+<p>图的邻接表存储方法跟树的孩子链表示法相类似，是一种顺序分配和链式分配相结合的存储结构。如这个表头结点所对应的顶点存在相邻顶点，则把相邻顶点依次存放于表头结点所指向的单向链表中。如词条概念图所示，表结点存放的是邻接顶点在数组中的索引。对于无向图来说，使用邻接表进行存储也会出现数据冗余，表头结点A所指链表中存在一个指向C的表结点的同时，表头结点C所指链表也会存在一个指向A的表结点。</p>
+<p>邻接表是图的一种最主要存储结构,用来描述图上的每一个点。对图的每个顶点建立一个容器（n个顶点建立n个容器），第i个容器中的结点包含顶点Vi的所有邻接顶点。实际上我们常用的邻接矩阵就是一种未离散化每个点的边集的邻接表。</p>
+<p>在无向图中，描述每个点所有的边(点a-点b这种情况)。</p>
+<h3>如何存储</h3>
+<p>邻接表是一个包含|V|个元素的顺序表。每个元素包含两个域，一个存储图的一个顶点信息，另一个是一个指针，指向该顶点的边构成的链表。这个链表通过存储顶点的邻接点来表示对应的边，链表中的每个结点存储顶点的邻接点在顺序表中的位置。如果要存储边的权值，则链表中的结点增加一个数据域（存储权值，或者存储一个指向权值存储位置的指针）。</p>
+<h3>如何构建</h3>
+<pre><code>void CreatALGraph(ALGraph G)  
+{  
+    int i, j, k;  
+    int a;  
+    EdgeNode s;         //定义边表节点  
+    printf(&quot;请输入顶点数和边数:\n&quot;);  
+    scanf(&quot;%d %d&quot;, &amp;i, &amp;j);  
+    G-&gt;n = i;  
+    G-&gt;e = j;  
+    printf(&quot;请输入顶点编号：\n&quot;);  
+    for (i = 1; i &lt;= G-&gt;n; i++)       //建立顶点表  
+    {  
+        scanf(&quot;%d&quot;, &amp;a);  
+        G-&gt;adjlist[i].vertex = a;    //读入顶点信息  
+        G-&gt;adjlist[i].firstedge = NULL;  //边表头指针置为空  
+    }  
+
+    printf(&quot;请输入由两个定点构成的边，示例：0 1\n&quot;);  
+    for (k = 0; k &lt; G-&gt;e; k++)  
+    {  
+        scanf(&quot;%d %d&quot;, &amp;i, &amp;j);     //读入边(Vi, Vj)的顶点对应的序号  
+        s = malloc(sizeof(struct node));    //生成边表节点  
+        s-&gt;adjvex = j;  
+        s-&gt;next = G-&gt;adjlist[i].firstedge;  
+        G-&gt;adjlist[i].firstedge = s; //将新节点*s插入顶点Vi的边表头部  
+        /*若建立为无向图，则添加下面的代码*/  
+        /* 
+        s = malloc(sizeof(struct node)); 
+        s-&gt;adjvex = i; 
+        s-&gt;next = G-&gt;adjlist[j].firstedge; 
+        G-&gt;adjlist[j].firstedge = s; 
+        */  
+    }  
+} 
+</code></pre>
+
+<h2>邻接矩阵表示法</h2>
+<h3>物理数据结构概述</h3>
+<p>逻辑结构分为两部分：V和E集合。因此，用一个一维数组存放图中所有顶点数据；用一个二维数组存放顶点间关系（边或弧）的数据，这个二维数组称为邻接矩阵。邻接矩阵又分为有向图邻接矩阵和无向图邻接矩阵。</p>
+<h3>物理数据结构定义</h3>
+<p>邻接矩阵（Adjacency Matrix）是表示顶点之间相邻关系的矩阵。设G=(V,E)是一个图，其中V={v1,v2,…,vn}[1]  。G的邻接矩阵是一个具有下列性质的n阶方阵：</p>
+<ol>
+<li>
+<p>对无向图而言，邻接矩阵一定是对称的，而且主对角线一定为零（在此仅讨论无向简单图），副对角线不一定为0，有向图则不一定如此。</p>
+</li>
+<li>
+<p>在无向图中，任一顶点i的度为第i列（或第i行）所有非零元素的个数，在有向图中顶点i的出度为第i行所有非零元素的个数，而入度为第i列所有非零元素的个数。</p>
+</li>
+<li>
+<p>用邻接矩阵法表示图共需要n^2个空间，由于无向图的邻接矩阵一定具有对称关系，所以扣除对角线为零外，仅需要存储上三角形或下三角形的数据即可，因此仅需要n（n-1）/2个空间。</p>
+</li>
+</ol>
+<h3>如何存储</h3>
+<p>图的顶点元素是一个|V|的顺序表，图的相邻矩阵是一个|V|×|V|矩阵。如果从vi到vj存在一条边, 则对第i行的第j个元素做标记, 否则不做标记。如果矩阵中的元素要存储边的权值，则矩阵的每个元素必须足够大（存储权值），或者存储一个指向权值存储位置的指针。</p>
+<h3>如何构建</h3>
+<ol>
+<li>输入顶点数和边数</li>
+<li>读入顶点信息，建立顶点表</li>
+<li>邻接矩阵初始化</li>
+<li>读入e条边，建立邻接矩阵</li>
+</ol>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
